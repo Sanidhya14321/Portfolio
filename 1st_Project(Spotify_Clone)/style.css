@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{            
+    font-family: "Ubuntu",sans-serif;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    background-color: black;
+    color: rgb(7, 204, 7);
+    width: 100%;
+
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family:'varela round',sans-serif;
+    display: flex;
+    width: 75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    width:100%;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
+
+.icons{
+    margin: 14px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 14px;
+}
+
+#myprogressbar{
+    width: 50vw;
+    cursor: pointer;
+
+}
+
+.songItemscontainer{
+    margin-top: 74px;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+
+}
+
+.songItems{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:34px ;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;  
+}
+.songItems img{
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 23px 0;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left: 0vw;
+    display: flex;
+    align-items: center;
+    font-family:'Ubuntu',sans-serif;
+}
+
+.songInfo img{
+    opacity: 1;
+    transition: opacity Is ease-in ;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}   
+
+.songInfo p{
+    padding: 15px;
+}
+
+.giphy img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.giphy{
+    display: flex;
+    align-items: center;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}

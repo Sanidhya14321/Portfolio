@@ -1,0 +1,241 @@
+*{
+    top: 0;
+    left: 0;
+}
+body{
+    background-color: rgb(52, 52, 52);
+    
+}
+
+h1{
+    font-size: 40px;
+    color: blanchedalmond;
+    text-shadow: rgb(255, 228, 196, 0.2) 2px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a1{
+    width:390px;
+    height: 440px;
+    background-color: rgb(140, 107, 107);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.first{
+    display: flex;
+    margin-top: 20px;
+    margin:auto;
+    padding: 10px;
+    padding-left: 30px;
+    height: 50px;
+    width:400px;
+}
+
+.a1 form input
+{
+    border: none;
+    width: 58px;
+    height: 45px;
+    background-color:transparent;
+    border-radius: 10px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.display{
+    width: 390px;
+    height: 45px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a3{
+    background-color:bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a4{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a5{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a6{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a7{
+    background-color: rgb(164, 46, 46);
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a8{
+    background-color: rgb(164, 46, 46);
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b1{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b2{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b3{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b4{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b5{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.c1{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.c2{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.c3{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.c4{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.c5{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.d1{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.d2{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.d3{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.d4{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.d5{
+    background-color: bisque;
+    width: 58px;
+    border-radius: 5px;
+    margin-right: 12px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none;
+}

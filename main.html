@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanidhya Vats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.min.css">
+</head>
+<body>
+
+  <!-- ----------------------------------home------------------------------ -->
+
+  <div class="fstpage" id="profile">
+    <h3 data-text="SANIDHYA'S">SANIDHYA'S</h3>
+    <h3 data-text="PORTFOLIO">PORTFOLIO</h3>
+  </div>
+
+
+
+  <!-- ---------------------------Nav----------------------------------- -->
+  <nav>
+    <ul>
+      <div class="home">
+        <a class="profile" onclick="scrolltohome()">
+            <i class="fas fa-2x fa-home"></i>
+            <span class="heading">home</span>
+        </a>
+      </div>
+      <div class="pro">
+        <a class="profile" onclick="scrolltoaboutme()">         
+            <i class="fas fa-2x fa-user"></i>
+            <span class="heading">profile</span>
+        </a>
+      </div>
+      <div class="skill" onclick="scrolltoskills()">
+        <a  class="profile">
+            <i class="fas fa-2x fa-chart-bar"></i>
+            <span class="heading">skills</span>
+        </a>
+      </div>
+      <div class="proj">
+        <a  class="profile" onclick="scrolltoprojects()">
+            <i class="fas fa-2x fa-tasks"></i>
+            <span class="heading">Projects</span>
+        </a>
+      </div>
+      <div class="contact" >
+        <a class="profile" onclick="scrolltocontacts()">
+          <i class="fas fa-2x fa-phone"></i>
+            <span class="heading">Contact</span>
+        </a>
+      </div>
+    </ul>
+  </nav>  
+
+  <!-- ------------------------about------------------------- -->
+
+  <div class="aboutme" id="aboutme">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="pfp.jpg" alt="">
+      </div>
+      <div class="about-col-2">
+        <div class="scdpage">
+            <h3 data-text="ABOUT_ME">ABOUT_ME</h3>
+        </div>
+        <p>I'm Sanidhya Vats, a versatile software developer proficient in HTML, CSS, JavaScript, Java, C++, C, and Python. My problem-solving skills and analytical mindset enable me to tackle complex challenges effectively. With a commitment to excellence and a collaborative spirit, I'm eager to contribute my skills to innovative projects and make a positive impact in the field of software development.</p>
+        <div class="tab-titles">
+          <p class="tab-links " onclick="opentab('experience')">Experience</p>
+          <p class="tab-links " onclick="opentab('education')">Education</p>
+        </div>  
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>To be Added</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023 <br>School : APS DK</span></li>
+            <li><span>2023-2027 <br>B.Tech MSIT Delhi</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- --------------------------services---------------------- -->
+
+  <div class="services" id="skills">
+    <div class="thdpage">
+        <h3 data-text="SKILLS">SKILLS</h3>
+    </div>
+    <div class="services-list">
+      <div>
+        <i class="fa fa-2x fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam voluptatum beatae debitis id atque, maiores totam, rem ipsum odio accusantium repellat facilis animi in sint fuga reprehenderit nulla modi.</p>
+        <a href="#WD">Learn More</a>
+      </div>
+      <div>
+        <i class="fa fa-2x fa-crop-alt"></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam voluptatum beatae debitis id atque, maiores totam, rem ipsum odio accusantium repellat facilis animi in sint fuga reprehenderit nulla modi.</p>
+        <a href="#UI/UX">Learn More</a>
+      </div>
+      <div>
+        <i class="fab fa-2x fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam voluptatum beatae debitis id atque, maiores totam, rem ipsum odio accusantium repellat facilis animi in sint fuga reprehenderit nulla modi.</p>
+        <a href="#AD">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- -----------------------------projects------------------------------ -->
+
+  <div class="projects" id="projects">
+    <div class="fthpage">
+        <h3 data-text="PROJECTS">PROJECTS</h3>
+    </div>
+    <div class="services-list">
+      <div>
+        <h2>Spotify Clone</h2>
+        <p>Spotify clone using HTML,CSS and Javascript.</p>
+        <a href="/1st_Project(Spotify_Clone)/index.html" target="_blank">Learn More</a>
+      </div>
+      <div>
+        <h2>Calculator</h2>
+        <p>A working Calculator using HTML,CSS and Javascript.</p>
+        <a href="/Calculator/index.html" target="_blank">Learn More</a>
+      </div>
+      <div>
+        <h2>Clock</h2>
+        <p>Analog & Digital Clock using HTML,CSS and Javascript.</p>
+        <a href="/Clock/index.html" target="_blank">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------------------------contacts---------------------------------- -->
+
+  <div class="contacts" id="contacts">
+    <div class="ffhpage">
+        <h3 data-text="CONTACTS">CONTACTS</h3>
+    </div>
+    <div class="services-list">
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+          <h2>Instagram</h2>
+          <p></p>
+          <a href="https://www.instagram.com/_vats14321/" target="_blank">Link</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-github"></i>
+          <h2>Github</h2>
+          <p></p>
+          <a href="https://github.com/Sanidhya14321" target="_blank">Link</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-linkedin"></i>
+          <h2> LinkedIn</h2>
+          <p></p>
+          <a href="https://www.linkedin.com/in/sanidhya-vats-9344522b7/" target="_blank">Link</a>
+        </div>
+  </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+<script src="https://kit.fontawesome.com/38242962b6.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+</html>
